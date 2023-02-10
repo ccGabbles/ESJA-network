@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: nieuws
 ---
 
 <section class="mt-15">
@@ -19,7 +19,7 @@ layout: blog
             <p class="text-base leading-6 text-gray-500 mb-3">
                 <time>
                     {{ post.date | readableDate }}
-                    by
+                    door
                     <a>{{ post.data.author }}</a>
 
                 </time>
@@ -31,8 +31,8 @@ layout: blog
             {% endif %}
 
             <p>
-                <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
-                    Read more →
+                <a href="{{ post.url | url }}" class="text-blue-500 font-bold text-lg">
+                    Lees meer →
                 </a>
             </p>
 

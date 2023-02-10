@@ -18,3 +18,49 @@ body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-gray-800;
 }
+
+header {
+  box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+}
+
+header img {
+  height: 40px;
+}
+
+
+.text-blue-500,
+.text-blue-500-hover:hover,
+.border-blue-500,
+.border-blue-500:hover {
+  color: #2269C3;
+}
+
+.text-blue-500-hover {
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+}
+
+.text-blue-500-hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.text-blue-500-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.text-5xl {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: left;
+}

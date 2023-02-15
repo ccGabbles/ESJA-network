@@ -1,3 +1,106 @@
 [build]
   publish = "_site"
   command = "npm run build"
+
+# PCEnkhuizen.nl
+# HTTPS
+[[redirects]]
+  from = "https://pcenkhuizen.nl"
+  to = "https://esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://pcenkhuizen.nl/*"
+  to = "https://esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.pcenkhuizen.nl"
+  to = "https://www.esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.pcenkhuizen.nl/*"
+  to = "https://www.esjanetwork.nl"
+  status = 301
+  force = true
+
+# HTTP
+[[redirects]]
+  from = "http://pcenkhuizen.nl"
+  to = "http://esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://pcenkhuizen.nl/*"
+  to = "http://esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.pcenkhuizen.nl"
+  to = "http://www.esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.pcenkhuizen.nl/*"
+  to = "http://www.esjanetwork.nl"
+  status = 301
+  force = true
+
+
+# Esjanetwork.com
+# HTTPS
+[[redirects]]
+  from = "https://esjanetwork.com"
+  to = "https://esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://esjanetwork.com/*"
+  to = "https://esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.esjanetwork.com.nl"
+  to = "https://www.esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.esjanetwork.com/*"
+  to = "https://www.esjanetwork.nl"
+  status = 301
+  force = true
+
+# HTTP
+[[redirects]]
+  from = "http://esjanetwork.com"
+  to = "http://esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://esjanetwork.com/*"
+  to = "http://esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.esjanetwork.com"
+  to = "http://www.esjanetwork.nl"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.esjanetwork.com/*"
+  to = "http://www.esjanetwork.nl"
+  status = 301
+  force = true

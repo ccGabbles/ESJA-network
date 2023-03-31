@@ -1,14 +1,17 @@
-<div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-3 gap-4 my-8 px-4 lg:mx-0">
-
+<div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 px-4 lg:mx-0">
     {% if quicklinks.links %}
-
         {% for item in quicklinks.links %}
-            <a href="{{item.url}}" target="_blank" class="p-5 border rounded border-gray-200 hover:border-blue-500">
+            <a href="{{item.url}}" class="p-5 border rounded border-gray-200 hover:border-blue-500">
                 <h3>{{item.title}} →</h3>
                 <p>{{item.desc}}</p>
             </a>
         {% endfor %}
-
     {% endif %}
+</div>
 
+<div class="w-full max-w-2xl grid grid-cols-1 gap-4 mt-6 px-4">
+    <a href="/nieuws" class="p-5 text-center border rounded border-gray-200 hover:border-blue-500">
+        <h3>Nieuws →</h3>
+        <p>Het laatste nieuws betreffende onze zaak.</p>
+    </a>
 </div>

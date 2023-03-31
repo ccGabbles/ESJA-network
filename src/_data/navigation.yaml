@@ -2,8 +2,10 @@
 items:
   - text: Home
     url: "/"
-  - text: Wie zijn wij
-    url: "/wie-zijn-wij"
+  - text: Diensten
+    url: "/diensten"
+  - text: Over ESJA
+    url: "/over-esja"
   - text: Contact
     url: "/contact"
   - text: Nieuws

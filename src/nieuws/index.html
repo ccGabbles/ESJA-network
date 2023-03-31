@@ -11,8 +11,6 @@ layout: nieuws
                 <a href="{{ post.url | url }}">
                     {% if post.data.title %}
                         {{ post.data.title }}
-                    {% else %}
-                        Untitled
                     {% endif %}
                 </a>
             </h2>
@@ -39,3 +37,5 @@ layout: nieuws
         </article>
     {% endfor %}
 </section>
+
+{% include "../_includes/partials/footer.html" %}

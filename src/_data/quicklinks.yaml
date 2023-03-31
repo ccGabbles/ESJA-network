@@ -1,11 +1,11 @@
 ---
 links:
-  - title: Wie zijn wij
-    url: "/wie-zijn-wij"
+  - title: Diensten
+    url: "/diensten"
+    desc: Wat wij voor jou zouden kunnen betekenen.
+  - title: Over ESJA
+    url: "/over-esja"
     desc: Al sinds jaar en dag dé computerzaak van Enkhuizen!
   - title: Contact
     url: "/contact"
     desc: Heb je een vraag of interesse in onze service?
-  - title: Nieuws
-    url: "/nieuws"
-    desc: Het laatste nieuws betreffende onze zaak.

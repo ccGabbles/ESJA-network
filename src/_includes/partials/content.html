@@ -1,13 +1,18 @@
+{% if quicklinks.links %}
+<p style="text-align: center; margin-top: 10px">
+    Vanwege werk en vakantie ben ik <b>afwezig</b> van 21 augustus tot en met 15 september.<br/>
+    U kunt mij bereiken via WhatsApp op 06-51833112 of door een e-mail te sturen naar <a href="mailto:jacob@esjanetwork.nl">jacob@esjanetwork.nl</a>.<br/>
+    Excuses voor het eventuele ongemak.
+</p>
 <div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-3 gap-4 mt-6 px-4 lg:mx-0">
-    {% if quicklinks.links %}
-        {% for item in quicklinks.links %}
+    {% for item in quicklinks.links %}
             <a href="{{item.url}}" class="p-5 border rounded border-gray-200 hover:border-blue-500">
                 <h3>{{item.title}} →</h3>
                 <p>{{item.desc}}</p>
             </a>
         {% endfor %}
-    {% endif %}
 </div>
+{% endif %}
 
 <div class="w-full max-w-2xl grid grid-cols-1 gap-4 mt-6 px-4">
     <a href="/nieuws" class="p-5 text-center border rounded border-gray-200 hover:border-blue-500">
